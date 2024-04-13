@@ -2,6 +2,19 @@
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
+// Question no 2
+function printEvenNumbers(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            console.log(arr[i]);
+        }
+    }
+}
+
+// Example usage:
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log("Even numbers in the array:");
+printEvenNumbers(numbers);
 
 
 
