@@ -1,21 +1,14 @@
 // Questionno  1
-for (let i = 1; i <= 10; i++) {
-    console.log(i);
+for(let num  = 1; num <= 10; num++){
+    console.log("num =",num);
 }
-// Question no 2
-function printEvenNumbers(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] % 2 === 0) {
-            console.log(arr[i]);
-        }
+// // Question no 2
+ for(i =1; i<=10; i++){
+    if(i%2 === 0){
+        console.log("i",i);
     }
-}
-
-// Example usage:
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log("Even numbers in the array:");
-printEvenNumbers(numbers);
-
+ }
+// Question no 3
 
 
 
