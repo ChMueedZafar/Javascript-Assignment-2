@@ -9,6 +9,15 @@ for(let num  = 1; num <= 10; num++){
     }
  }
 // Question no 3
+function deleteAllOccurrences(arr, elem) {
+    return arr.filter(item => item !== elem);
+}
+
+// Example usage:
+const originalArray = [1, 2, 3, 4, 2, 5, 2];
+const elementToDelete = 2;
+const newArray = deleteAllOccurrences(originalArray, elementToDelete);
+console.log(newArray); // Output: [1, 3, 4, 5]
 
 
 
